@@ -1,0 +1,35 @@
+h1 {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+#continue {
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 100px;
+    color: white;
+    background-color: black;
+    border-radius: 50px;
+}
+
+#bruh {
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 100px;
+    color: white;
+    background-color: red;
+    border-radius: 50px;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href = "unitfour.css"/>
+    <script type="text/javascript" src="unitfour.js"></script>
+</head>
+<body>
+    <form name = "unitfour" id = "unitfour">
+    <h1 class = "text">Unit Four</h1>
+    <h2 id = "timer">Time Remaining: 8:00  </h2>
+    <h2 class = "question">1. The base of a triangle is decreasing at a constant rate of 0.2 cm/sec and the height is increasing at 0.1
+        cm/sec. If the area is increasing, which answer best describes the constraints on the height h at the
+        instant when the base is 3 centimeters? <br><br>
+      
+    <input  type = "radio" name="question1" value = "1"> h > 1<br>
+    <input  type = "radio" name="question1" value = "2"> h < 1.5<br>
+    <input type = "radio" name="question1" value = "3"> h > 1.5 <br>
+    <input type = "radio" name="question1" value = "4"> h > 2<br>
+    </h2>
+    <br><br>
+
+    <h2 class = "question">2. People are entering a museum at a rate modeled by f(t) people per hour and exiting the building at a rate moduled by g(t) people per hour, where t is measured in hours. The functions f and g are nonnegative and differentiable for all times t. Which of the following inequalities indicates that the rate of change of the number of people in the building is decreasing at time t? <br><br>
+    <input  type = "radio" name="question2" value = "5">g(t) < 0<br>
+    <input  type = "radio" name="question2" value = "6"> g'(t) < 0<br>
+    <input type = "radio" name="question2" value = "7"> f(t) - g(t) < 0 <br>
+    <input type = "radio" name="question2" value = "8"> f'(t) - g'(t) < 0<br>
+    </h2>
+    <br><br>
+
+    <h2 class = "question">3. If f(x) = 2x^3 + 5, then lim <sub>x→0</sub>
+        <span style="display: inline-block; text-align: center; font-size: 1.2em; line-height: 1.2;">
+          <div>f(x) - f(0)</div>
+          <div style="border-top: 2px solid black; margin: 0 5px;"></div>
+          <div>x<sup>3</sup></div>
+        </span><br>
+    <h2>
+    <input  type = "radio" name="question3" value = "9">0<br>
+    <input  type = "radio" name="question3" value = "10"> 1<br>
+    <input type = "radio" name="question3" value = "11"> 2<br>
+    <input type = "radio" name="question3" value = "12"> 3<br>
+        </h2>
+    </h2>
+
+    <h2 class="question">A particle moves along the x-axis so that at time t its position is given by x(t) = t<sup>3</sup> - 6t<sup>2</sup> + 9t + 11, where t is measured in seconds and x is measured in feet.</h2>
+
+<h2 class="question">At t = 0, is the particle moving to the right or left?</h2>
+<h2>
+<input type="radio" name="question4" value="9"> Right because x'(0) > 0<br>
+<input type="radio" name="question4" value="10"> Right because x''(0) > 0<br>
+<input type="radio" name="question4" value="11"> Left because x'(0) < 0<br>
+<input type = "radio" name="question4" value = "12"> Left because  x''(0) < 0<br>
+</h2> <br><br>
+<button onclick = "check(event)"id = "done" type="button">Finished</button>
+</form>
+<div id="feedback" style="text-align:center; margin-top:20px;"></div>
+<br><br>
+</body>
+</html>

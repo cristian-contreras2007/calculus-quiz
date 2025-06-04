@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href = "unitone.css"/>
+    <script type="text/javascript" src="unitone.js"></script>
+</head>
+<body>
+    <form name = "unitone" id = "unitone">
+    <h1 class = "text">Unit One</h1>
+    <h2 id = "timer">Time Remaining: 8:00  </h2>
+    <h2 class = "question">1. Evaluate the following limit expression <br><br>
+        lim <sub>x→∞</sub>
+        <span style="display: inline-block; text-align: center; font-size: 1.2em; line-height: 1.2;">
+          <div>3x<sup>25</sup> + 34x<sup>5</sup> + 19x<sup>2</sup> + 4x + 100</div>
+          <div style="border-top: 2px solid black; margin: 0 5px;"></div>
+          <div>4x<sup>25</sup> + 32x<sup>5</sup> + 17x<sup>2</sup> + 229x + 2</div>
+        </span>
+        <br><br>
+      
+    <input  type = "radio" name="question1" value = "3/4">3/4<br>
+    <input  type = "radio" name="question1" value = "1/2"> 1/2<br>
+    <input type = "radio" name="question1" value = "Undefined"> Undefined<br>
+    <input type = "radio" name="question1" value = "infinity"> ∞<br>
+    </h2>
+
+    <h2 class = "question">2. Evaluate the following limit expression <br><br>
+        lim <sub>x→-4</sub>
+        <span style="display: inline-block; text-align: center; font-size: 1.2em; line-height: 1.2;">
+          <div>3x<sup>2</sup> + 13x + 4</div>
+          <div style="border-top: 2px solid black; margin: 0 5px;"></div>
+          <div>2x<sup>2</sup> + 5x - 12</div>
+        </span>
+        <br><br>
+    <input  type = "radio" name="question2" value = "1">1<br>
+    <input  type = "radio" name="question2" value = "-7/11"> -7/11<br>
+    <input type = "radio" name="question2" value = "-1"> -1<br>
+    <input type = "radio" name="question2" value = "∞"> ∞<br>
+    </h2>
+    
+    <h2 class = "question">3. Use the following graph to answer the following question <br>
+   <span style="display: inline-block; text-align: center; font-size: 1.2em; line-height: 1.2;">    
+            <img src = "https://dcvp84mxptlac.cloudfront.net/diagrams2/CALC-1-1-X-1.jpg" width = "500px" />
+        </span>
+        <h2> What is the answer to the following expression?</h2> <h2>lim <sub>x→5<sup>+</sup></sub></h2></h2>
+    <h2>
+    <input  type = "radio" name="question3" value = "-2">-2<br>
+    <input  type = "radio" name="question3" value = "one"> 1<br>
+    <input type = "radio" name="question3" value = "DNE"> Does Not Exist<br>
+    <input type = "radio" name="question3" value = "2"> 2<br>
+        </h2>
+    </h2>
+
+    <h2 class="question">4. Consider the function f which is continuous on the interval [1, 4] and has the following values:</h2>
+<table border="1" class="question4-table">
+    <tr><th>x</th><th>1</th><th>2</th><th>3</th><th>4</th></tr>
+    <tr><th>f(x)</th><td>-2</td><td>0</td><td>3</td><td>5</td></tr>
+</table>
+
+<h2 class="question">Does there exist a number c in (1, 4) such that f(c) = 1 ?</h2>
+<h2>
+<input type="radio" name="question4" value="Not Enough Information"> Not Enough Information<br>
+<input type="radio" name="question4" value="No"> No<br>
+<input type="radio" name="question4" value="Yes"> Yes<br>
+</h2> <br><br>
+<button onclick = "check(event)"id = "done" type="button">Finished</button>
+</form>
+<div id="feedback" style="text-align:center; margin-top:20px;"></div>
+<br><br>
+</body>
+</html>

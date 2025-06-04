@@ -1,0 +1,24 @@
+.intro {
+    text-align: center;
+    padding-top: 24px;
+    font-size: 50px;
+    font-style: normal;
+}
+
+#nerd {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 30px;
+}
+
+#continue {
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 100px;
+    color: white;
+    background-color: black;
+    border-radius: 50px;
+}
