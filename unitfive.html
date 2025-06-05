@@ -5,10 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="unitfive.css"/>
+    <script type = "text/javascript" src = "unitfive.js"></script>
 </head>
 <body>
     <form name = "unitfive" id = "unitfive">
         <h1 class = "text">Unit Five</h1>
+        <h2 id = "timer">Time Remaining: 8:00</h2>
         <h2 class="question">1. The table below gives selected values of a function f. The function is twice differentiable with f''(x) > 0.</h2>
         <table border="1" class="question4-table">
             <tr><th>x</th><th>3</th><th>5</th><th>7</th></tr>
@@ -17,27 +19,39 @@
         
         <h2 class="question">Which of the following could be the value of f'(5)?</h2>
         <h2>
-        <input type="radio" name="question4" value="0"> 0.5<br>
-        <input type="radio" name="question4" value="1"> 0.7<br>
-        <input type="radio" name="question4" value="2"> 0.9<br>
-        <input type="radio" name="question4" value="3"> 1.1<br>
-        </h2> <br><br>
+        <input type="radio" name="question1" value="0"> 0.5<br>
+        <input type="radio" name="question1" value="1"> 0.7<br>
+        <input type="radio" name="question1" value="2"> 0.9<br>
+        <input type="radio" name="question1" value="3"> 1.1<br>
+        </h2> <br>
 
-        <h2 class="question">1. The table below gives selected values of a function f. The function is twice differentiable with f''(x) > 0.</h2>
-        <table border="1" class="question4-table">
-            <tr><th>x</th><th>3</th><th>5</th><th>7</th></tr>
-            <tr><th>f(x)</th><td>12.5</td><td>13.9</td><td>16.1</td></tr>
-        </table>
-        
-        <h2 class="question">Which of the following could be the value of f'(5)?</h2>
+        <h2 class="question">2. If g is a differentiable function such that g(x) < 0 for all real numbers x and if f'(x) = (x<sup>2</sup> - x - 12)g(x), which of the following is true?</h2>
         <h2>
-        <input type="radio" name="question4" value="0"> 0.5<br>
-        <input type="radio" name="question4" value="1"> 0.7<br>
-        <input type="radio" name="question4" value="2"> 0.9<br>
-        <input type="radio" name="question4" value="3"> 1.1<br>
-        </h2> <br><br>
+        <input type="radio" name="question2" value="4"> f has a relative maximum at x = -3 and a relative minimum at x = 4<br>
+        <input type="radio" name="question2" value="5"> f has a relative minimum at x = -3 and a relative maximum at x = 4<br>
+        <input type="radio" name="question2" value="6"> f has a relative maximum at x = 3 and a relative maximum at x = -4<br>
+        <input type="radio" name="question2" value="7"> f has a relative minimum at x = 3 and a relative maximum at x = -4<br>
+        </h2> <br>
 
+        <h2 class="question">3. If the graph of y = x<sup>3</sup> +ax <sup>2</sup> + bx - 4 has a point of inflection at (1, -6), what is the value of b?</h2>
+        <h2>
+        <input type="radio" name="question3" value="8"> -3 <br>
+        <input type="radio" name="question3" value="9"> 0<br>
+        <input type="radio" name="question3" value="10"> 1<br>
+        <input type="radio" name="question3" value="11"> 3<br>
+        </h2> <br>
 
+        <h2 class="question">4. The cost of a computer system increases with increased processor speeds. The cost C of a system as a function of processor speed is estimated as C = 5S<sup>2</sup> -4S + 1000, where S is the processor speed in MHz. Find the processor speed for which cost is at a minimum. </h2>
+        <h2>
+        <input type="radio" name="question4" value="12"> 0.2 MHz <br>
+        <input type="radio" name="question4" value="13"> 0.4 MHz<br>
+        <input type="radio" name="question4" value="14"> 3.2 MHz<br>
+        <input type="radio" name="question4" value="15"> 8 MHz<br>
+        </h2>  <br><br>
+        <button onclick = "check(event)"id = "done" type="button">Finished</button>
+    </form>
+    <div id="feedback" style="text-align:center; margin-top:20px;"></div>
         
 </body>
 </html>
+

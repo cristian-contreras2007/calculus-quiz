@@ -1,16 +1,16 @@
 function check(event) {
     if (event) event.preventDefault(); 
     var c = 0;
-    var form = document.unitfour;
+    var form = document.unitfive;
     var q1 = form.question1.value;
     var q2 = form.question2.value;
     var q3 = form.question3.value;
     var q4 = form.question4.value;
     
     if (q1 === "2") c++;
-    if (q2 === "8") c++;
-    if (q3 === "11") c++;
-    if (q4 === "9") c++;
+    if (q2 === "5") c++;
+    if (q3 === "9") c++;
+    if (q4 === "13") c++;
     
     form.style.display = 'none';
     
@@ -25,7 +25,7 @@ function check(event) {
         nextBtn.style.padding = '10px 20px';
         nextBtn.style.fontSize = '16px';
         nextBtn.onclick = function() {
-            window.location.href = 'unitfive.html'; 
+            window.location.href = 'unitsix.html'; 
         };
         feedbackDiv.appendChild(nextBtn);
         
