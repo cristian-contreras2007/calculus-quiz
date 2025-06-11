@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href = "unitseven.css"/>
+    <script type="text/javascript" src="unitseven.js"></script>
+</head>
+<body>
+    <form name = "unitseven" id = "unitseven">
+    <h1 class = "text">Unit Seven</h1>
+    <h2 id = "timer">Time Remaining: 8:00  </h2>
+    <h2 class = "question">1. Of the following, which are solutions to the differential equation y'' - 5y' + 4y = 0 <br><br>
+    I. y = cos(2x) <br>
+    II. y = 2e<sup>x</sup> <br>
+    III. y = Ce<sup>4x</sup>, where C is a constant. <br><br>
+      
+    <input  type = "radio" name="question1" value = "0"> I and II only<br>
+    <input  type = "radio" name="question1" value = "1"> II only<br>
+    <input type = "radio" name="question1" value = "2"> III only<br>
+    <input type = "radio" name="question1" value = "3"> II and III only<br>
+    </h2> <br>
+
+    <h2 class = "question">2. Evaluate the following limit expression <br><br>
+        <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCNnn6Tb8LXpaInQ_wF1fpoK96nZlXuNp_Yw&s"/>
+        <br><br>
+    <input  type = "radio" name="question2" value = "1">1<br>
+    <input  type = "radio" name="question2" value = "-7/11"> -7/11<br>
+    <input type = "radio" name="question2" value = "-1"> -1<br>
+    <input type = "radio" name="question2" value = "∞"> ∞<br>
+    </h2>
+    
+    <h2 class = "question">3. Use the following graph to answer the following question <br>
+   <span style="display: inline-block; text-align: center; font-size: 1.2em; line-height: 1.2;">    
+            <img src = "https://dcvp84mxptlac.cloudfront.net/diagrams2/CALC-1-1-X-1.jpg" width = "500px" />
+        </span>
+        <h2> What is the answer to the following expression?</h2> <h2>lim <sub>x→5<sup>+</sup></sub></h2></h2>
+    <h2>
+    <input  type = "radio" name="question3" value = "-2">-2<br>
+    <input  type = "radio" name="question3" value = "one"> 1<br>
+    <input type = "radio" name="question3" value = "DNE"> Does Not Exist<br>
+    <input type = "radio" name="question3" value = "2"> 2<br>
+        </h2>
+    </h2>
+
+    <h2 class="question">4. Consider the function f which is continuous on the interval [1, 4] and has the following values:</h2>
+<table border="1" class="question4-table">
+    <tr><th>x</th><th>1</th><th>2</th><th>3</th><th>4</th></tr>
+    <tr><th>f(x)</th><td>-2</td><td>0</td><td>3</td><td>5</td></tr>
+</table>
+
+<h2 class="question">Does there exist a number c in (1, 4) such that f(c) = 1 ?</h2>
+<h2>
+<input type="radio" name="question4" value="Not Enough Information"> Not Enough Information<br>
+<input type="radio" name="question4" value="No"> No<br>
+<input type="radio" name="question4" value="Yes"> Yes<br>
+</h2> <br><br>
+<button onclick = "check(event)"id = "done" type="button">Finished</button>
+</form>
+<div id="feedback" style="text-align:center; margin-top:20px;"></div>
+<br><br>
+</body>
+</html>
