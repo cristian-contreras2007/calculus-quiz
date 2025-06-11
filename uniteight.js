@@ -1,16 +1,16 @@
 function check(event) {
     if (event) event.preventDefault(); 
     var c = 0;
-    var form = document.unitseven;
+    var form = document.uniteight;
     var q1 = form.question1.value;
     var q2 = form.question2.value;
     var q3 = form.question3.value;
     var q4 = form.question4.value;
     
-    if (q1 === "3") c++;
-    if (q2 === "6") c++;
+    if (q1 === "1") c++;
+    if (q2 === "7") c++;
     if (q3 === "8") c++;
-    if (q4 === "13") c++;
+    if (q4 === "14") c++;
     
     form.style.display = 'none';
     
@@ -25,7 +25,7 @@ function check(event) {
         nextBtn.style.padding = '10px 20px';
         nextBtn.style.fontSize = '16px';
         nextBtn.onclick = function() {
-            window.location.href = 'uniteight.html'; 
+            window.location.href = 'congratulations.html'; 
         };
         feedbackDiv.appendChild(nextBtn);
         
@@ -76,8 +76,6 @@ window.onload = function () {
         }
     }, 1000);
 };
-
-
 
 
 
